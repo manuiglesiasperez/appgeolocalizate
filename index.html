@@ -32,9 +32,13 @@
             map = new GMaps({  // muestra mapa centrado en coords [lat, lng]
               el: '#map',
               lat: lat,
-              lng: lng
+              lng: lng,
+              panControl : true,
+        	streetViewControl : true,
+        	mapTypeControl : true
             });
-            map.addMarker({ lat: lat, lng: lng});  // marcador en [lat, lng]
+            map.addMarkers({ lat: lat, lng: lng, color: 'blue',title: 'Estás aquí'},{ lat: 42.2370710, lng: -8.727460, size: 'small'} );  // marcador en [lat, lng]
+            map.addMarker({ lat: 42.2370710, lng: -8.727460, size: 'small'});
           },
           error: function(error) { alert('Error: '+error.message); },
           not_supported: function(){ alert("No soporta geolocalización"); },
@@ -46,6 +50,6 @@
   </script>
 </head>
 <body>
-  <h1>Geolocalización</h1>
+  <h1>Geolocalizate</h1>
   <div id="map"></div>
 </body></html>
