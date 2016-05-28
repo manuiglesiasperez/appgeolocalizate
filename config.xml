@@ -1,7 +1,7 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.manu.geolocalizate" version="1.0.0">
   <name>Geolocalizate</name>
-  <description>Tu localización.</description>
-  <author href="http://www.manuiglesias.com" email="manu@manuiglesias.com">Manu Team</author>
+  <description>Hello World sample application that responds to the deviceready event.</description>
+  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="14"/>
@@ -27,12 +27,12 @@
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <icon src="icon.png"/>
   <platform name="android">
-    <icon src="www/res/icon/android/icon-36-ldpi.png" density="ldpi"/>
-    <icon src="www/res/icon/android/icon-48-mdpi.png" density="mdpi"/>
-    <icon src="www/res/icon/android/icon-72-hdpi.png" density="hdpi"/>
-    <icon src="www/res/icon/android/icon-96-xhdpi.png" density="xhdpi"/>
-    <icon src="www/res/icon/android/icon-144-xxhdpi.png" density="xxhdpi"/>
-    <icon src="www/res/icon/android/icon-192-xxxhdpi.png" density="xxxhdpi"/>
+    <icon src="www/res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
+    <icon src="www/res/icon/android/drawable-mdpi-icon.png" density="mdpi"/>
+    <icon src="www/res/icon/android/drawable-hdpi-icon.png" density="hdpi"/>
+    <icon src="www/res/icon/android/drawable-xhdpi-icon.png" density="xhdpi"/>
+    <icon src="www/res/icon/android/drawable-xxhdpi-icon.png" density="xxhdpi"/>
+    <icon src="www/res/icon/android/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
     <splash src="www/res/screen/android/drawable-land-ldpi-screen.png" density="land-ldpi"/>
     <splash src="www/res/screen/android/drawable-land-mdpi-screen.png" density="land-mdpi"/>
     <splash src="www/res/screen/android/drawable-land-hdpi-screen.png" density="land-hdpi"/>
